@@ -17,7 +17,7 @@
     <description>Business services for the Airline Booking Microservices application.</description>
 
     <modules>
-        <module>user-service</module>   <!-- User service for managing user-related operations -->
+        <module>location-service</module>
     </modules>
 
 </project>
