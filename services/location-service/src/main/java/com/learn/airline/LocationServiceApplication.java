@@ -1,4 +1,4 @@
-package com.learn.locationservice;
+package com.learn.airline;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
