@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.learn</groupId>
+        <groupId>com.learn.airline</groupId>
         <artifactId>services</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
@@ -17,6 +17,12 @@
     <description>Location service module for the Airline Booking Microservices application.</description>
 
     <dependencies>
+        <dependency>
+            <groupId>com.learn.airline</groupId>
+            <artifactId>common-lib</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
